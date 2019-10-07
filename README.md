@@ -90,7 +90,8 @@ See you can add any style to your own project. These are only ideas.
 
 # Usage
 
-> put your code here
+To run this project you must write this in terminal
+> python bio.py
 
 
 # Extras:
