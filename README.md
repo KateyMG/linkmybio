@@ -82,7 +82,7 @@ See you can add any style to your own project. These are only ideas.
 - [X] **FORK** THIS REPO!
 - [X] Your project will read the links.yaml file and generate the webpage to start serving it as desired.
 - [X] Project MUST compile
-- [ ] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
+- [X] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
 - [X] Add Style, suggestions "bootstrap.css"
 - [ ] Deliver it via `git tags`
 - [X] Make sure to use/develop/fill the empty files/folders provided: `static/`, `templates/`, `bio.py` , `requirements.txt`.
