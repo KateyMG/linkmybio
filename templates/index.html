@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>LinkTree | Katherine Mazariegos</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">  
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+    img {
+        border-radius: 50%;
+        }
+    </style>    
+    </head>
+    <body>        
+        <!-- Logo -->
+        <img src="{{links.get('picture')}}" style = "width:150px"/>
+        
+        <!-- Featured -->
+        <h1><b>{{links.get("name")}}</b></h1>
+        <a class="featured" href="">{{links.get("shortbio")}}</a>
+
+        <!-- Popular Content -->
+       <h2>Redes Sociales</h2>
+        <a href="{{social[0].link}}">{{social[0].name}}</a>       
+        <!--{% for links in links %}
+            <a href="{{link}}">{{links}}</a>
+        {% endfor %}-->
+
+         <a href="{{social[1].link}}">{{social[1].name}}</a>
+        <a href="{{social[2].link}}">{{social[2].name}}</a><i class="fa fa-twitter"></i> 
+        <!-- Channels -->
+        <h2>Follow Me On</h2>
+
+        <div class="channels">
+            <a href="{{social[3].link}}">{{social[3].name}}</a>
+            <a href="{{social[4].link}}">{{social[4].name}}</a>
+            <a href="{{social[5].link}}">{{social[5].name}}</a>
+        </div>
+        <marquee bgcolor="BF0CAE" width="25%" scrolldelay="100" scrollamount="5" direction="left" loop="infinite" >Confía en Él y Él hará.</marquee>
+        
+    </body>
+</html>
